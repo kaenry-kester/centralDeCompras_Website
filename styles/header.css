@@ -1,0 +1,27 @@
+header {
+  background-color: var(--background_Primary_Color);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+}
+
+#logo {
+  display: inline-block;
+  height: 5rem;
+  display: block;
+}
+
+#logoIcon {
+  display: inline-block;
+  height: 5rem;
+  display: none;
+}
+
+#listLinks {
+  color: var(--text_Secondary_Color);
+}
