@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background_Primary_Color: #131921;
+  --background_Header_Color: #232f3e;
+  --background_Secundary_Color: #f5f5f5f5;
+  --background_Tertiary_Color: #ccc5c5f6;
+
+  --button_Primary_Color: #000000;
+
+  --background_FeaturedCard_Color: #000000;
+
+  --text_Primary_Color: #222222;
+  --text_Secondary_Color: #ffffff;
+  --text_Hover_Color: #b40808;
+
+  /*
+  Weight Text:
+- Header 400
+- Footer 700
+- Body 400
+- Title 700
+- Cards 400 / 700
+*/
+  --title_Weight: 700;
+  --text_Wight: 400;
+}
