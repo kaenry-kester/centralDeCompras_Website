@@ -1,0 +1,114 @@
+<<<<<<< Updated upstream
+=======
+header {
+  background-color: var(--background_Header_Color);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0rem 0.2rem 1rem;
+}
+
+section {
+  display: flex;
+}
+
+.linksNav {
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.linksNav:hover {
+  color: var(--text_Hover_Color);
+}
+
+.createAccount {
+  color: var(--text_Secondary_Color);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+#sectionCreateAccount {
+  padding: 0 0 0 5rem;
+}
+
+.createAccount:hover {
+  color: var(--text_Hover_Color);
+}
+
+#headerP1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#logo {
+  all: unset;
+  display: inline-block;
+  height: 5rem;
+  display: block;
+  cursor: pointer;
+}
+
+#logoIcon {
+  display: inline-block;
+  height: 5rem;
+  display: none;
+}
+
+#linkLogoIMG {
+  display: block;
+  background-color: var(--background_Header_Color);
+}
+
+#linkLogoIcon {
+  display: none;
+  background-color: var(--background_Header_Color);
+}
+
+#searhBar {
+  width: 50rem;
+  height: 3rem;
+  background-color: var(--background_Secundary_Color);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1rem;
+}
+
+#listLinks {
+  color: var(--text_Secondary_Color);
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem 0 0 0;
+}
+
+#hot {
+  all: unset;
+  color: var(--text_Hover_Color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  width: 7rem;
+  height: 2rem;
+  text-align: center;
+}
+
+#hot:hover {
+  color: var(--text_Secondary_Color);
+  background-color: var(--background_Primary_Color);
+}
+
+#carrinhoCompras {
+  width: 2rem;
+}
+
+#sectionCreateAccount {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+}
+>>>>>>> Stashed changes

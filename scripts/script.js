@@ -5,4 +5,5 @@ async function loadComponent(id, file) {
 }
 
 loadComponent("header", "components/header.html");
+loadComponent("main","components/main.html");
 loadComponent("footer", "components/footer.html");
